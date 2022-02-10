@@ -15,3 +15,4 @@ public interface ProductService {
 
     Product updateProductDetails(Long productId, JsonPatch productPatch) throws BusinessLogicException;
 }
+
