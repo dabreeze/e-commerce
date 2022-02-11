@@ -1,10 +1,7 @@
 package com.phoenix.data.dto;
 
 import lombok.Data;
-import org.hibernate.annotations.CreationTimestamp;
-
-import javax.persistence.Column;
-import java.time.LocalDateTime;
+import org.springframework.web.multipart.MultipartFile;
 
 @Data
 public class ProductDto {
@@ -13,5 +10,5 @@ public class ProductDto {
     private String description;
     private double price;
     private int quantity;
-    private String imageUrl;
+    private MultipartFile image;
 }
