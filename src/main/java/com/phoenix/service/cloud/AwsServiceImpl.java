@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class AwsServiceImpl implements CloudService{
     @Override
-    public Map<?, ?> upload(File file, Map<?, ?> params) {
+    public Map<?, ?> upload(byte[] bytes, Map<?, ?> params) {
         return null;
     }
 }
